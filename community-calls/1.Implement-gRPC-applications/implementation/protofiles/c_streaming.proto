@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+service CabService {
+    rpc sendCurrentLocation(stream Location) returns (TripState);
+}
+
+message Location {
+    string name = 1;
+    int32 latitude = 2;
+    int32 longitude = 3;
+}
+
+message TripState {
+    enum State {
+        COMPLETED = 0;
+        IN_PROGRESS = 1;
+    }
+    State state = 1;
+}

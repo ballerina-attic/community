@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service CabService {
+    rpc getStartLocation(CabDetails) returns (Location);
+}
+
+message Location {
+    string name = 1;
+    int32 latitude = 2;
+    int32 longitude = 3;
+}
+
+message CabDetails {
+    string cabNumber = 1;
+}

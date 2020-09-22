@@ -1,0 +1,1 @@
+{"buddhi/c_streaming_client:0.1.0:CabServiceClient" : [{"function":{"name":"sendCurrentLocation","requiredParams":[{"msgListener":"service"},{"headers":"ballerina/grpc:0.7.0:Headers?"}],"returnType":"ballerina/grpc:0.7.0:StreamingClient"}}]}
