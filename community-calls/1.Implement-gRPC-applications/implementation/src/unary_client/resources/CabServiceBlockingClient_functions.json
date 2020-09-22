@@ -1,0 +1,1 @@
+{"buddhi/unary_client:0.1.0:CabServiceBlockingClient" : [{"function":{"name":"getStartLocation","requiredParams":[{"req":"buddhi/unary_client:0.1.0:CabDetails"},{"headers":"ballerina/grpc:0.7.0:Headers?"}],"returnType":"[buddhi/unary_client:0.1.0:Location,ballerina/grpc:0.7.0:Headers]"}}]}
