@@ -1,6 +1,6 @@
 # Community Call 02 - Getting Started with Serverless
 
-- YouTube: https://www.youtube.com/watch?v=afbiSGcVhSo
+- YouTube: https://www.youtube.com/watch?v=12gosblVlhY
 - Date: 13th October 2020
 - Next community call: 10th November 2020
 
