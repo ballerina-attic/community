@@ -15,7 +15,7 @@
 
 ## Slide Deck
 
-https://docs.google.com/presentation/d/1-OF0hnfrGfnw1aEBUM9hgrWWnGpSkJB6Q5XdGL9FrIo/edit#slide=id.g934dd385a5_0_78
+https://docs.google.com/presentation/d/1-OF0hnfrGfnw1aEBUM9hgrWWnGpSkJB6Q5XdGL9FrIo/edit#slide=id.p
 
 ## References
 
