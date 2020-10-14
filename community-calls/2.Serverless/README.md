@@ -1,8 +1,9 @@
 # Community Call #2 - Getting Started with Serverless
 
-- YouTube: https://www.youtube.com/watch?v=12gosblVlhY
+- YouTube: https://youtu.be/12gosblVlhY
 - Date: October 13, 2020
 - Next community call: November 10, 2020
+- Invite: https://wso2.zoom.us/j/97351774553?pwd=eGtaNjB3M3QvN1JXL0RXa3FwMVZZZz09
 
 ## Agenda
 
