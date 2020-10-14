@@ -1,7 +1,7 @@
 # Community Call 02 - Getting Started with Serverless
 
 - YouTube: https://www.youtube.com/watch?v=12gosblVlhY
-- Date: 13th October 2020
+- Date: October 13, 2020
 - Next community call: 10th November 2020
 
 ## Agenda
@@ -25,4 +25,3 @@ https://docs.google.com/presentation/d/1-OF0hnfrGfnw1aEBUM9hgrWWnGpSkJB6Q5XdGL9F
 - https://dzone.com/articles/practical-serverless-long-running-workflows-with-h
 - https://hackernoon.com/how-to-use-ballerina-in-azure-functions-121c3urp
 - https://dzone.com/articles/practical-serverless-a-scalable-ocr-solution-in-10
-
