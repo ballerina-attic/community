@@ -1,8 +1,8 @@
 # Community Call #1 - Implementing a gRPC Application in Ballerina
 
-- YouTube: https://www.youtube.com/watch?v=afbiSGcVhSo
-- Date: Tuesday, September 8, 2020
-- Next community call: Tuesday, October 13, 2020
+- YouTube: https://youtu.be/ADZPZtXK5e8
+- Date: September 8, 2020
+- Next community call: October 13, 2020
 - Invite: https://wso2.zoom.us/j/97351774553?pwd=eGtaNjB3M3QvN1JXL0RXa3FwMVZZZz09
 
 ## Agenda
