@@ -2,7 +2,7 @@
 
 - YouTube: https://www.youtube.com/watch?v=12gosblVlhY
 - Date: October 13, 2020
-- Next community call: 10th November 2020
+- Next community call: November 10, 2020
 
 ## Agenda
 
