@@ -1,0 +1,14 @@
+[project]
+org-name= "community"
+version= "0.1.0"
+
+[build-options]
+observability-included=true
+
+[dependencies]
+
+[platform]
+target="java11"
+
+    [[platform.libraries]]
+    path="./resources/mysql-connector-java-8.0.22.jar"
