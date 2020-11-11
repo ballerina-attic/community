@@ -22,8 +22,8 @@ https://docs.google.com/presentation/d/1WvXM5pfSGtsHYgpL5DJGb-h8mvUbsGRAVbR_Bn-R
 
 ### Prerequisite
 
-- Setup the DEMO Database by importing the `DEMO.sql` found in `BallerinaDataAccess/resources/`.
-- Add `mysql-connector-java-8.0.22.jar` from `https://dev.mysql.com/downloads/connector/j/` & add it `BallerinaDataAccess/resources/`.
+- Setup the DEMO Database by importing the `DEMO.sql` found in `./Implementation/resources/`.
+- Add `mysql-connector-java-8.0.22.jar` from [here](https://dev.mysql.com/downloads/connector/j/) to `./Implementation/resources/`.
 - Update Database connector configurations (JDBC Url, Username & Password) if different.
 
 ### Running the samples
