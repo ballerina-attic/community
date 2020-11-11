@@ -45,7 +45,7 @@ public function main() returns sql:Error? {
 }
 
 function queryResult(jdbc:Client dbClient, int id) returns sql:Error? {
-    sql:ParameterizedQuery retrieveQuery = `Select id, first_name, last_name, dob from candidates where id = ${id};`;
+    sql:ParameterizedQuery retrieveQuery = `SELECT id, first_name, last_name, dob FROM candidates WHERE id = ${id};`;
 
     stream<record{}?, error> selectResult = dbClient->query(<@untainted> retrieveQuery, Candidate);
     stream<Candidate, sql:Error> candidates = <stream<Candidate, sql:Error>> selectResult;

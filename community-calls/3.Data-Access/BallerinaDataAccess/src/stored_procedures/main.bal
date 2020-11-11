@@ -30,7 +30,7 @@ public function main() returns sql:Error? {
     jdbc:Client dbClient = check new ("jdbc:mysql://localhost:3306/DEMO", "test", "Test#123");
 
     sql:IntegerOutParameter skillCount = new;
-    sql:ParameterizedCallQuery callQuery = `call get_candidate_skill(133, ${skillCount})`;
+    sql:ParameterizedCallQuery callQuery = `CALL get_candidate_skill(133, ${skillCount})`;
 
     sql:ProcedureCallResult callResults = check dbClient->call(callQuery, [Candidate]);
 

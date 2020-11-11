@@ -30,7 +30,7 @@ public function main(int limitCount) returns @tainted error? {
 
     jdbc:Client dbClient = check new ("jdbc:mysql://localhost:3306/DEMO", "test", "Test#123");
 
-    sql:ParameterizedQuery query = `SELECT id, first_name, last_name, dob from candidates limit ${limitCount}`;
+    sql:ParameterizedQuery query = `SELECT id, first_name, last_name, dob FROM candidates LIMIT ${limitCount}`;
 
     stream<record{}, error> queryResults = dbClient->query(<@untainted> query, Candidate);
     stream<Candidate, error> candidateStream = <stream<Candidate, error>> queryResults;
