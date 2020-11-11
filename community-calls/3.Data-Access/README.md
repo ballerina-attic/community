@@ -1,6 +1,6 @@
 # Community Call #3 - Data Access in Ballerina
 
-- YouTube: 
+- YouTube: https://www.youtube.com/watch?v=lLqvaLtC3m0
 - Date: November 10, 2020
 - Next community call: December 8, 2020
 - Invite: https://wso2.zoom.us/j/97351774553?pwd=eGtaNjB3M3QvN1JXL0RXa3FwMVZZZz09
