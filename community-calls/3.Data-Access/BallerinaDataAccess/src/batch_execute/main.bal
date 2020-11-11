@@ -44,16 +44,15 @@ public function main() returns sql:Error? {
 
     int count = 1;
     if (execResults is sql:ExecutionResult[]) {
-        execResults.forEach(
-        function(sql:ExecutionResult exec) {
-            io:println("Insert result of insert record " + count.toString() + ": " + exec.toString());
-            count = count + 1;
-        });
+        execResults.forEach(function(sql:ExecutionResult exec) {
+                                io:println("Insert result of insert record ", count, ": ", exec);
+                                count = count + 1;
+                            });
     } else if (execResults is sql:BatchExecuteError) {
-        io:println("Batch execution error occurred! " + execResults.message());
+        io:println("Batch execution error occurred! ", execResults.message());
         execResults.detail()?.executionResults.forEach(function(sql:ExecutionResult exec) {
-                                                           io:println("Insert result of insert record " + 
-                                                           count.toString() + ": " + exec.toString());
+                                                           io:println("Insert result of insert record ", count, ": ", 
+                                                           exec);
                                                            count = count + 1;
                                                        });
     } else {

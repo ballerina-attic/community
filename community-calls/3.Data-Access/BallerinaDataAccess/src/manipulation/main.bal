@@ -34,7 +34,7 @@ public function main() returns sql:Error? {
     sql:ParameterizedQuery insertQuery = `INSERT INTO candidates(first_name, last_name, dob) VALUES('Harry', 'Potter', ${dob})`;
 
     sql:ExecutionResult execResult = check dbClient->execute(insertQuery);
-    io:println(execResult.toString());
+    io:println(execResult);
 
     int lastInsertId = <int> execResult.lastInsertId;
 
@@ -54,6 +54,6 @@ function queryResult(jdbc:Client dbClient, int id) returns sql:Error? {
         io:println(candidate);
     });
     if (e is error) {
-        io:println("Error occurred while querying " + e.message());
+        io:println("Error occurred while querying ", e.message());
     } 
 }

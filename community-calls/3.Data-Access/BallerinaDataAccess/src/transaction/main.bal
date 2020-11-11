@@ -38,7 +38,7 @@ public function main() returns error? {
         sql:ExecutionResult execResult = check dbClient->execute(candidateInsert);
 
         int candidateId = <int>execResult.lastInsertId;
-        io:println("Newly inserted Candidate Id : " + candidateId.toString());
+        io:println("Newly inserted Candidate Id : ", candidateId);
 
         sql:ParameterizedQuery candidateSkillInsert = `INSERT INTO candidate_skills VALUES (${candidateId}, ${skill})`;
         sql:ExecutionResult|sql:Error skillUpdateResult = dbClient->execute(candidateSkillInsert);

@@ -34,7 +34,7 @@ public function main() returns sql:Error? {
 
     sql:ProcedureCallResult callResults = check dbClient->call(callQuery, [Candidate]);
 
-    io:println("Total skill count of candidate of id 100: " + check skillCount.get(string));
+    io:println("Total skill count of candidate of id 100: ", check skillCount.get(string));
 
     stream<Candidate, sql:Error> candidateStream = <stream<Candidate, sql:Error>>callResults.queryResult;
 
@@ -42,7 +42,7 @@ public function main() returns sql:Error? {
                                            io:println(candidate);
                                        });
     if (e is error) {
-        io:println("Error occurred while processing stored procedure results " + e.message());
+        io:println("Error occurred while processing stored procedure results ", e.message());
     }
 
     check callResults.close();
