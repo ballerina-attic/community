@@ -16,7 +16,7 @@
 
 ## Slide Deck
 
-https://docs.google.com/presentation/d/16d-eG1ueoe_gLBxe-0r0oNVP1ASK6hBboT8gaHKq3jI/edit?usp=sharing
+https://www.slideshare.net/BallerinaLang/ballerina-community-call-java-interoperability
 
 ## Running the Samples
 
