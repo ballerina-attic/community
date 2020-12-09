@@ -1,6 +1,6 @@
 # Community Call #4 - Java Interoperability in Ballerina
 
-- YouTube: 
+- YouTube: https://www.youtube.com/watch?v=4EINEJAtAg4
 - Date: December 8, 2020
 - Next community call: January 12, 2021
 - Invite: https://wso2.zoom.us/j/97351774553?pwd=eGtaNjB3M3QvN1JXL0RXa3FwMVZZZz09
