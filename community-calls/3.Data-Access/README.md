@@ -16,7 +16,7 @@
 
 ## Slide Deck
 
-https://docs.google.com/presentation/d/1WvXM5pfSGtsHYgpL5DJGb-h8mvUbsGRAVbR_Bn-R2Nk/edit?usp=sharing
+https://www.slideshare.net/BallerinaLang/ballerina-community-call-data-access-in-ballerina
 
 ## Running the Samples
 
