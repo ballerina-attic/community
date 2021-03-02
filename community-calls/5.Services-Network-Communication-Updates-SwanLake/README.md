@@ -1,4 +1,4 @@
-# Community Call #4 - Java Interoperability in Ballerina
+# Community Call #6 - Services and Network Communication Updates in Swan Lake
 
 - YouTube: https://youtu.be/hKBjatIFxyw
 - Date: March 8, 2021
