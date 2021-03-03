@@ -1,0 +1,7 @@
+[package]
+org = "c2c"
+name = "scaling"
+version = "0.0.5"
+
+[build-options]
+cloud="k8s"

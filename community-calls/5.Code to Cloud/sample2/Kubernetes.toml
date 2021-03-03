@@ -1,0 +1,10 @@
+[container.image]
+name="hello"
+tag="v1.0"
+
+[cloud.deployment.probes.liveness]
+port=9090
+path="helath/live"
+
+
+
