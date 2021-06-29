@@ -28,7 +28,7 @@ Here are a few ways you can contribute to the Ballerina community:
 * Write content for our community run [Ballerina Techblog](https://medium.com/ballerina-techblog) or any other publications
 * Record and publish vlogs explaining specific features of Ballerina
 * Speak at meetups, conferences, or other events
-* Host a meetup or hackathon for your local community - we can help you get started with presentation and training content, logistics, swag, and munchies
+* Host a meetup or hackathon for your local community - we can help you get started
 * Contribute to the language:
   * Report an issue in the relevant repo out of the GitHub repos listed below. We want to fix all bugs!
     * Compiler, runtime, standard library, or tooling: [ballerina-lang](https://github.com/ballerina-platform/ballerina-lang/issues) repo
