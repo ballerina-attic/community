@@ -15,7 +15,7 @@ Here are a few ways you can engage with the Ballerina community:
 * Newsletter: [https://ballerina.io/community/newsletter/](https://ballerina.io/community/newsletter/)
 
 ### Community Call
-The Ballerina team is now hosting monthly recorded community calls! These are interactive meetings that will explore Ballerina use cases. 
+The Ballerina team is now hosting monthly recorded community calls! These are interactive meetings that will explore Ballerina use cases. You can find the recordings and links to the slides of the past community calls on [YouTube](https://www.youtube.com/playlist?list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU). 
 
 Through these calls, we aim to open up our channels and give you direct access to our engineers. As a participant, you will get the chance to ask our team and other community members any questions you have about Ballerina or your projects. Take a look at this [working doc](https://docs.google.com/document/d/1TPi0ktNvk-gQhVh46ckP5_LyhvwLJSQ3NJeSfv8459A/edit) for information on past and upcoming calls.
 
