@@ -232,7 +232,7 @@ The Ballerina test framework contains a set of useful features built for buildin
 
 **Expected Outcomes:**
 
-1. Create a proposal on how to implement micro benchmarks into the Ballerina test framework
+1. Create a proposal on how to implement micro-benchmarks into the Ballerina test framework
 2. Implement the benchmark into the test framework
 3. Add a CLI flag for the `bal test` command
 4. Create an article about the implementation
