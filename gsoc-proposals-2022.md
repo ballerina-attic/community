@@ -15,7 +15,7 @@ The Ballerina project began in 2016. With over 80 active developers and 1,000 Sl
 ## Prerequisites
 
 - A solid understanding and interest in programming is a must
-- Basic familiarity with GitHub
+- Familiarity with Git and GitHub
 - The ability to quickly understand existing code is beneficial
 
 ## Contributor Guidance for Proposals
