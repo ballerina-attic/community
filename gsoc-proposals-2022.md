@@ -59,11 +59,14 @@ The Ballerina programming language has a variety of tools associated with VS Cod
 3. VS Code plugin development
 4. Language Server Protocol
 
-**Possible Mentors** [Nadeeshaan Gunasinghe](mailto:nadeeshaan@wso2.com)
+**Possible Mentors** 
+[Nadeeshaan Gunasinghe](mailto:nadeeshaan@wso2.com)
 
-**Expected Size of the Project**  (175 or 350 hours)
+**Expected Size of the Project**  
+(175 or 350 hours)
 
-**Complexity** medium/high
+**Complexity** 
+medium/high
 
 **Additional resources/references**
 
@@ -101,11 +104,14 @@ The initial implementation will support only direct chats. Message service will 
 3. Knowledge of REST APIs
 4. Understanding of event streaming (producer/consumer) systems like Kafka is a plus
 
-**Possible Mentors** [Imesha Sudasingha](mailto:imesha@wso2.com)
+**Possible Mentors** 
+[Imesha Sudasingha](mailto:imesha@wso2.com)
 
-**Expected Size of the Project** 175 hours
+**Expected Size of the Project** 
+175 hours
 
-**Complexity** medium
+**Complexity** 
+medium
 
 ### Idea 3: Write a Single-Page Application(SPA) with Backend Services in Ballerina
 
@@ -134,11 +140,14 @@ The Ballerina language comes with powerful capabilities to create backend APIs a
 5. AWS and Azure experience
 6. Knowledge of AWS Lambda Functions, Azure Functions
 
-**Possible Mentors** [Imesha Sudasingha](mailto:imesha@wso2.com)
+**Possible Mentors** 
+[Imesha Sudasingha](mailto:imesha@wso2.com)
 
-**Expected Size of the Project**  175 hours 
+**Expected Size of the Project**  
+175 hours 
 
-**Complexity** medium 
+**Complexity** 
+medium 
 
 ### Idea 4: Recovery for Ballerina Distributed Transactions
 
@@ -161,9 +170,11 @@ The goal of this project is to come up with a solution to save the transactional
 - [Gimantha Bandara](mailto:gimantha@wso2.com)
 - [Chiran Fernando](mailto:chiran@wso2.com)
 
-**Expected Size of the Project**  350 hours
+**Expected Size of the Project**  
+350 hours
 
-**Complexity** high 
+**Complexity** 
+high 
 
 ### Idea 5: Develop a Templating Engine in Ballerina to Render HTML
 
@@ -192,9 +203,11 @@ Ballerina is currently capable of handling XML and JSON data. This project would
 - [Danesh Kuruppu](mailto:danesh@wso2.com)
 - [Anjana Sivanandan](mailto:anjanasi@wso2.com)
 
-**Expected Size of the Project**  175 hours
+**Expected Size of the Project**  
+175 hours
 
-**Complexity** medium
+**Complexity** 
+medium
 
 ### Idea 6: Support gRPC Reflection in Ballerina gRPC Services
 
@@ -216,9 +229,11 @@ gRPC Reflection embeds metadata in service and exposes a new gRPC service called
 - [Danesh Kuruppu](mailto:danesh@wso2.com)
 - [Buddhi Kothalawala](mailto:buddhik@wso2.com)
 
-**Expected Size of the Project**  175 hours
+**Expected Size of the Project**  
+175 hours
 
-**Complexity** medium
+**Complexity** 
+medium
 
 **References**
 
@@ -242,15 +257,17 @@ The Ballerina test framework contains a set of useful features built for buildin
 1. Java and Ballerina 
 2. Existing microbenchmark tools and implementations(Go test, JMH)
 3. Writing ballerina compiler extensions
-4. Experience in implementing test frameworks and observe packages
+4. Familiarity with the implementation of the Ballerina test framework and the `observe` packages
 
 **Possible Mentors**
 - [Fathima Dilhasha](mailto:dilhasha@wso2.com)
 - [Anjana Supun](mailto:anjanas@wso2.com)
 
-**Expected size of the Project** 350 hours
+**Expected size of the Project** 
+350 hours
 
-**Complexity** medium/high
+**Complexity** 
+medium/high
 
 **References**
 - [https://github.com/openjdk/jmh](https://github.com/openjdk/jmh)
@@ -258,6 +275,4 @@ The Ballerina test framework contains a set of useful features built for buildin
 - [https://github.com/ballerina-platform/ballerina-lang/tree/master/misc/testerina)
 - [https://github.com/ballerina-platform/module-ballerina-observe](https://github.com/ballerina-platform/module-ballerina-observe)
 - [https://github.com/ballerina-platform/module-ballerinai-observe](https://github.com/ballerina-platform/module-ballerinai-observe)
-
-
-
+        
