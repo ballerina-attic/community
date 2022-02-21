@@ -6,8 +6,7 @@ Our goal is to make [Ballerina](https://ballerina.io/) a modern programming lang
 
 Ballerina is a 100% open-source project created and sponsored by [WSO2](https://wso2.com/) with all parts of the project developed openly at [https://github.com/ballerina-platform](https://github.com/ballerina-platform). Already downloaded by nearly 10,000 developers worldwide, Ballerina is the only modern cloud-native programming language that provides features for easily using, combining, and creating network services for the cloud.
 
-Uniquely, Ballerina provides a bidirectional mapping of sequence diagrams and code,
-meaning the diagram is the code, and the code is the diagram. As a result, developers can easily switch between working in a pro-code or low-code view of a program as needed to maximize their productivity. At the same time, Ballerina removes much of the complexity in developing enterprise-grade cloud-native applications, APIs and microservices by providing a first-class way to represent network interactions while streamlining many functions around data usage, configurations, cloud deployments, and more.
+Uniquely, Ballerina provides a bidirectional mapping of sequence diagrams and code, meaning the diagram is the code, and the code is the diagram. As a result, developers can easily switch between working in a pro-code or low-code view of a program as needed to maximize their productivity. At the same time, Ballerina removes much of the complexity in developing enterprise-grade cloud-native applications, APIs and microservices by providing a first-class way to represent network interactions while streamlining many functions around data usage, configurations, cloud deployments, and more.
 
 The recent Swan Lake GA release adds a new set of substantial language features and platform tools to produce programs that handle network interactions, data, and concurrency straightforwardly, and are easy to maintain.
 
@@ -15,7 +14,9 @@ The Ballerina project began in 2016. With over 80 active developers and 1,000 Sl
 
 ## Prerequisites
 
-Coding skills, basic familiarity with Git, and solid understanding and interest in programming. The ability to quickly understand existing code is beneficial.
+- Coding skills, basic familiarity with GitHub
+- A solid understanding and interest in programming is a must
+- The ability to quickly understand existing code is beneficial
 
 ## Contributor Guidance for Proposals
 
@@ -153,7 +154,7 @@ medium
 
 In the Ballerina SwanLake release, distributed transactions do not have any recovery mechanism. In other words, If there is a failure in the middle of a transaction that involves multiple resource managers across multiple services, the Ballerina program cannot completely fail the whole transaction or continue from where it failed last time when the program restarts. In order to implement a recovery mechanism, there should be a way to save the current state of the transaction into persistent storage. 
 
-The goal of this project is to come up with a solution to save the transactional state into persistent storage, e.g, file system or/and DB, and do a PoC on how to recover from a failure. We need to think about different deployments and how to use the recovery accordingly. 
+The goal of this project is to come up with a solution to save the transactional state into persistent storage, e.g., file system or/and DB, and do a PoC on how to recover from a failure. We need to think about different deployments and how to use the recovery accordingly. 
  
 **Expected Outcomes**
 
