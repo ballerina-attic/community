@@ -43,4 +43,4 @@ If you have contributed in any of the above ways, let us know by filling in this
 
 ## Google Summer of Code 2022
 
-For the discussion ideas of Google Summer of Code 2022, see [Google Summer of Code 2022](https://github.com/ballerina-platform/community/blob/master/gsoc-proposals-2022.md).
+For the details of project ideas for Google Summer of Code 2022, see [Google Summer of Code 2022](https://github.com/ballerina-platform/community/blob/master/gsoc-proposals-2022.md).
