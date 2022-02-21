@@ -4,10 +4,10 @@
 
 Our goal is to make [Ballerina](https://ballerina.io/) a modern programming language that combines the best of programming languages, integration technology, and cloud native computing into a textual and graphical language optimized for integration, and with mainstream potential.
 
-Ballerina is a 100% open-source project created and sponsored by [WSO2](https://wso2.com/), with all parts of the project developed openly at [https://github.com/ballerina-platform](https://github.com/ballerina-platform). Already downloaded by nearly 10,000 developers worldwide, Ballerina is the only modern cloud native programming language that provides features for easily using, combining and creating network services for the cloud.
+Ballerina is a 100% open-source project created and sponsored by [WSO2](https://wso2.com/) with all parts of the project developed openly at [https://github.com/ballerina-platform](https://github.com/ballerina-platform). Already downloaded by nearly 10,000 developers worldwide, Ballerina is the only modern cloud-native programming language that provides features for easily using, combining, and creating network services for the cloud.
 
 Uniquely, Ballerina provides a bidirectional mapping of sequence diagrams and code,
-meaning the diagram is the code, and the code is the diagram. As a result, developers can easily switch between working in a pro-code or low-code view of a program as needed to maximize their productivity. At the same time, Ballerina removes much of the complexity in developing enterprise-grade cloud native applications, APIs and microservices by providing a first-class way to represent network interactions while streamlining many functions around data usage, configurations, cloud deployments, and more.
+meaning the diagram is the code, and the code is the diagram. As a result, developers can easily switch between working in a pro-code or low-code view of a program as needed to maximize their productivity. At the same time, Ballerina removes much of the complexity in developing enterprise-grade cloud-native applications, APIs and microservices by providing a first-class way to represent network interactions while streamlining many functions around data usage, configurations, cloud deployments, and more.
 
 The recent Swan Lake GA release adds a new set of substantial language features and platform tools to produce programs that handle network interactions, data, and concurrency straightforwardly, and are easy to maintain.
 
@@ -27,7 +27,7 @@ Coding skills, basic familiarity with Git, and solid understanding and interest 
   - Is there anything that you’ll be studying or working on whilst working alongside us?
   - Are there any techniques and tools which you use to keep yourself organized?
 3. Once you’ve selected a project assignment from the ideas page, please include a well-defined, weekly schedule with clear milestones and deliverables around it.
-4. Alternatively, if you want to propose your own idea then please include outline, goals, and a well-defined weekly schedule with clear milestones and deliverables.
+4. Alternatively, if you want to propose your own idea, then, please include an outline, goals, and a well-defined weekly schedule with clear milestones and deliverables.
 5. All applications must go through Google's application system; we can't accept any application unless it is submitted there.
 6. Make it easy for your mentors to give you feedback. If you're using Google docs, enable comments and submit a "draft" (we can't see the "final" versions until applications close).
 7. You can get in touch with your prospective mentors via their email (as provided in the ideas list) about what they expect of GSoC applicants and get help from them to refine your project ideas.
@@ -48,7 +48,7 @@ The Ballerina programming language has a variety of tools associated with VS Cod
 **Sample Set of Features of the Plugin**
 
 1. Visualize the dependency graph
-2. Once clicked over a particular dependency, show information about the dependency, such as version, organization name, and etc.
+2. Once clicked over a particular dependency, show information about the dependency, such as version, organization name, etc.
 3. Nodes of the graph should be collapsible
 4. Show usages of a certain dependency in the current project
 
@@ -61,7 +61,7 @@ The Ballerina programming language has a variety of tools associated with VS Cod
 
 **Possible Mentors** [Nadeeshaan Gunasinghe](mailto:nadeeshaan@wso2.com)
 
-**Expected Size of the Project**  (175 or 350 hour)
+**Expected Size of the Project**  (175 or 350 hours)
 
 **Complexity** medium/high
 
@@ -72,24 +72,24 @@ The Ballerina programming language has a variety of tools associated with VS Cod
 3. [https://github.com/ballerina-platform/ballerina-lang](https://github.com/ballerina-platform/ballerina-lang)
 4. [https://microsoft.github.io/language-server-protocol/specifications/specification-current/](https://microsoft.github.io/language-server-protocol/specifications/specification-current/) 
 
-### Idea 2: Real-Time Web-Based Chat with Web Sockets and notifications
+### Idea 2: Real-Time Web-Based Chat with Web Sockets and Notifications
 
-The objective of this project is to demonstrate cloud native capabilities of the Ballerina programming language. Once implemented, this project will serve as a good example for the community to follow and implement end-to-end event driven programming use cases with Ballerina. This will be a continuing effort and only the initial steps will be taken during GSoC.
+The objective of this project is to demonstrate the cloud-native capabilities of the Ballerina programming language. Once implemented, this project will serve as a good example for the community to follow and implement end-to-end event-driven programming use cases with Ballerina. This will be a continuing effort and only the initial steps will be taken during GSoC.
 
-The Ballerina standard library has rich support for writing real-time applications and event driven programming. This project requires making use of Ballerina’s capabilities to implement a real-time interactive chat application. The application contains the following components:
+The Ballerina standard library has rich support for writing real-time applications and event-driven programming. This project requires making use of Ballerina’s capabilities to implement a real-time interactive chat application. The application contains the following components:
 
-1. Frontend - Written as an SPA (single page application) for users to sign in an chat with other users
+1. Frontend - Written as a SPA (single page application) for users to sign in and chat with other users
 2. Message Service - REST API to manage chat information
-3. Message Service (Web Socket) - Written as a websocket service to send new chat messages in real-time and receive new chat messages in real-time
+3. Message Service (Web Socket) - Written as a WebSocket service to send new chat messages in real-time and receive new chat messages in real-time
 4. Notification service - Emails the recipient if the recipient isn’t online
 5. Storage service - Handles media added to chats
 
-Initial implementation will support only direct chats. Message service will send an event to a kafka topic if the recipient is not online. The notification service will consume the event and will send an email to the recipient notifying about the new message.
+The initial implementation will support only direct chats. Message service will send an event to a Kafka topic if the recipient is not online. The notification service will consume the event and will send an email to the recipient notifying about the new message.
 
 **Expected Outcomes**
 
-1. All components mentioned above to be implemented in the Ballerina programming language
-2. Notification service should guarantee exactly once delivery
+1. All components mentioned above are to be implemented in the Ballerina programming language
+2. Notification service should guarantee exactly-once delivery
 3. Deployment descriptors to deploy the application into a k8s cluster
 4. Documentation explaining the architecture and the implementation details
 5. A blog post containing the overall implementation steps 
@@ -97,7 +97,7 @@ Initial implementation will support only direct chats. Message service will send
 **Relevant Skills**
 
 1. JavaScript and a modern frontend framework (React.js, Angular, Vue)
-2. Knowledge of websockets (optional)
+2. Knowledge of WebSockets (optional)
 3. Knowledge of REST APIs
 4. Understanding of event streaming (producer/consumer) systems like Kafka is a plus
 
@@ -109,9 +109,9 @@ Initial implementation will support only direct chats. Message service will send
 
 ### Idea 3: Write a Single-Page Application(SPA) with Backend Services in Ballerina
 
-The objective of this project is to demonstrate the cloud native capabilities of the Ballerina programming language. Once implemented, this project will serve as a good example for the community to follow and implement end-to-end, full-stack use cases with Ballerina. This will be a continuing effort and only the initial steps will be taken during GSoC.
+The objective of this project is to demonstrate the cloud-native capabilities of the Ballerina programming language. Once implemented, this project will serve as a good example for the community to follow and implement end-to-end, full-stack use cases with Ballerina. This will be a continuing effort and only the initial steps will be taken during GSoC.
 
-The Ballerina language comes with powerful capabilities to create backend APIs and services among others. This project requires creating an application that makes use of Ballerina’s capabilities to create REST and GraphQL APIs, gRPC services, asynchronous API, database access, service integration, and security along with creating a front-end application to consume the backend services. Ballerina  has built-in support for AWS Lambda and Azure Functions too, so you will have to build a serverless backend with AWS Lambda and Azure Functions. This entire application should be deployed on Kubernetes on GKE. 
+The Ballerina language comes with powerful capabilities to create backend APIs and services among others. This project requires creating an application that makes use of Ballerina’s capabilities to create REST and GraphQL APIs, gRPC services, asynchronous API, database access, service integration, and security along with creating a front-end application to consume the backend services. Ballerina has built-in support for AWS Lambda and Azure Functions too, so you will have to build a serverless backend with AWS Lambda and Azure Functions. This entire application should be deployed on Kubernetes on GKE. 
 
 **Expected Outcomes**
 
@@ -148,8 +148,8 @@ The goal of this project is to come up with a solution to save the transactional
  
 **Expected Outcomes**
 
-1. A Proof of Concept (PoC) which demonstrates recovery from a failure
-2. Replace the current recovery mechanism (not fully functional) with a PoC
+1. A Proof of Concept (POC), which demonstrates recovery from a failure
+2. Replace the current recovery mechanism (not fully functional) with a POC
 3. Handle different deployment patterns and recover accordingly 
 
 **Relevant Skills**
@@ -198,7 +198,7 @@ Ballerina is currently capable of handling XML and JSON data. This project would
 
 ### Idea 6: Support gRPC Reflection in Ballerina gRPC Services
 
-gRPC Reflection embeds metadata in service and exposes a new gRPC service called reflection that allows a calling client to query the list of available services and details about specific services. A gRPC service that supports reflection can be invoked via the gRPCurl tool. In the current version of Ballerina, the gRPC services are neither compatible with gRPCurl (I can't even explicitly invoke the functions when using the protobuf file as a reference) nor can they automatically be discovered via gRPCurl without protobuf references. This project is to add reflection support to Ballerina services.
+gRPC Reflection embeds metadata in service and exposes a new gRPC service called reflection that allows a calling client to query the list of available services and details about specific services. A gRPC service that supports reflection can be invoked via the gRPCurl tool. In the current version of Ballerina, the gRPC services are neither compatible with gRPCurl (I can't even explicitly invoke the functions when using the Protobuf file as a reference) nor can they automatically be discovered via gRPCurl without Protobuf references. This project is to add reflection support to Ballerina services.
 
 **Expected Outcomes**
 
@@ -240,9 +240,9 @@ The Ballerina test framework contains a set of useful features built for buildin
 **Relevant Skills**
 
 1. Java and Ballerina 
-2. Existing microbenchmark tools and implementations(go test, JMH)
+2. Existing microbenchmark tools and implementations(Go test, JMH)
 3. Writing ballerina compiler extensions
-4. Experience in implementing test frameworks, observe packages
+4. Experience in implementing test frameworks and observe packages
 
 **Possible Mentors**
 - [Fathima Dilhasha](mailto:dilhasha@wso2.com)
