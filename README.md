@@ -40,7 +40,4 @@ Here are a few ways you can contribute to the Ballerina community:
   * Star the [Ballerina GitHub repo](https://github.com/ballerina-platform/ballerina-lang).
 
 If you have contributed in any of the above ways, let us know by filling in this [form](https://docs.google.com/forms/d/e/1FAIpQLSfLvVD_4t28jzN53f9j_oqS4sMf9_-si5wSwtUDorBOT0Nr6w/viewform).
-
-## Google Summer of Code 2022
-
-For the details of project ideas for Google Summer of Code 2022, see [Google Summer of Code 2022](https://github.com/ballerina-platform/community/blob/master/gsoc-proposals-2022.md).
+           
